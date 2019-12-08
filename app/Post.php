@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    protected $filllable = [
-        'tilte',
+    protected $fillable = [
+        'title',
         'body',
     ];
 
