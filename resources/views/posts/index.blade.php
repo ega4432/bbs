@@ -7,9 +7,6 @@
         </div>
         @foreach ($posts as $post)
             <div class="card mb-4">
-                <div class="mb-4 text-right">
-                    <a class="btn btn-primary" href="{{ route('posts.edit', ['post' => $post]) }}">編集する</a>
-                </div>
                 <div class="card-header">
                     {{ $post->title }}
                 </div>
